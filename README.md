@@ -55,11 +55,11 @@ Painel administrativo da Santus: controle de estoque e da produção das estampa
 
 ## Outros projetos
 
-| Projeto | O que é | Stack |
-| --- | --- | --- |
-| [Apenas um Católico](https://github.com/JoaocarlosTeco/Apenas-um-Catolico) | Site de evangelização e devoção aos santos | React, styled-components |
-| [Brownie Reis](https://github.com/JoaocarlosTeco/site-brownie-reis) | Site de vendas para uma confeitaria artesanal, com filtro de produtos e pedido pelo WhatsApp | HTML, CSS, JavaScript |
-| [Javis](https://github.com/JoaocarlosTeco/javis) | 60 exercícios de lógica resolvidos e comentados | Java |
+| Projeto | O que é | Stack | Links |
+| --- | --- | --- | --- |
+| **Apenas um Católico** | Site de evangelização e devoção aos santos, com tema claro e escuro e PWA | React, styled-components | [site](https://joaocarlosteco.github.io/Apenas-um-Catolico/) · [código](https://github.com/JoaocarlosTeco/Apenas-um-Catolico) |
+| **Brownie Reis** | Site de vendas para uma confeitaria artesanal, com filtro de produtos e pedido pelo WhatsApp | HTML, CSS, JavaScript | [site](https://joaocarlosteco.github.io/site-brownie-reis/) · [código](https://github.com/JoaocarlosTeco/site-brownie-reis) |
+| **Javis** | 60 exercícios de lógica resolvidos e comentados | Java | [código](https://github.com/JoaocarlosTeco/javis) |
 
 <br>
 
