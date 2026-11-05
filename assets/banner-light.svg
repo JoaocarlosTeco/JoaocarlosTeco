@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="João Carlos dos Santos — Full Stack Developer e QA">
+  <style>
+    .serif { font-family: Georgia, 'Times New Roman', serif; }
+    .sans  { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .a { animation: show .45s ease-out both; }
+    .d1 { animation-delay: .4s; } .d2 { animation-delay: 1.0s; } .d3 { animation-delay: 1.4s; }
+    .d4 { animation-delay: 1.8s; } .d5 { animation-delay: 2.4s; } .d6 { animation-delay: 2.8s; }
+    .cursor { animation: blink 1.1s steps(1) 2.8s infinite both; }
+    @keyframes show  { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .a, .cursor { animation: none; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+
+  <!-- coluna esquerda -->
+  <line x1="56" y1="78" x2="92" y2="78" stroke="#9a7a3a" stroke-width="1.5"/>
+  <text x="106" y="83" class="mono" font-size="13" letter-spacing="3" fill="#9a7a3a">FULL STACK · QA</text>
+
+  <text x="54" y="152" class="serif" font-size="60" font-weight="700" fill="#1f2328">João Carlos</text>
+  <text x="54" y="214" class="serif" font-size="60" font-style="italic" fill="#9a7a3a">dos Santos</text>
+
+  <text x="56" y="262" class="sans" font-size="18" fill="#59636e">Desenvolvo e testo produtos web de ponta a ponta.</text>
+  <text x="56" y="300" class="mono" font-size="13" letter-spacing="1" fill="#818b98">Aracaju, SE  ·  Brasil</text>
+
+  <!-- terminal -->
+  <rect x="640" y="40" width="512" height="280" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <line x1="640" y1="76" x2="1152" y2="76" stroke="#d0d7de"/>
+  <circle cx="662" cy="58" r="5" fill="#d0d7de"/>
+  <circle cx="680" cy="58" r="5" fill="#d0d7de"/>
+  <circle cx="698" cy="58" r="5" fill="#d0d7de"/>
+  <text x="896" y="62" class="mono" font-size="12" fill="#818b98" text-anchor="middle">~/joao-carlos</text>
+
+  <g class="mono" font-size="14">
+    <text x="666" y="116" class="a d1"><tspan fill="#9a7a3a">$</tspan><tspan fill="#1f2328" dx="10">npm test</tspan></text>
+
+    <g class="a d2">
+      <rect x="666" y="139" width="44" height="20" rx="3" fill="#1a7f37"/>
+      <text x="688" y="153" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">PASS</text>
+      <text x="724" y="154" fill="#1f2328">frontend</text>
+      <text x="830" y="154" fill="#59636e">next.js · react · tailwind</text>
+    </g>
+    <g class="a d3">
+      <rect x="666" y="173" width="44" height="20" rx="3" fill="#1a7f37"/>
+      <text x="688" y="187" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">PASS</text>
+      <text x="724" y="188" fill="#1f2328">backend</text>
+      <text x="830" y="188" fill="#59636e">node · aws lambda · supabase</text>
+    </g>
+    <g class="a d4">
+      <rect x="666" y="207" width="44" height="20" rx="3" fill="#1a7f37"/>
+      <text x="688" y="221" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">PASS</text>
+      <text x="724" y="222" fill="#1f2328">qualidade</text>
+      <text x="830" y="222" fill="#59636e">selenium · postman · jira</text>
+    </g>
+
+    <text x="666" y="262" class="a d5"><tspan fill="#59636e">Tests:</tspan><tspan fill="#1a7f37" font-weight="700" dx="10">3 passed</tspan><tspan fill="#59636e">, 3 total</tspan></text>
+    <text x="666" y="296" class="a d6"><tspan fill="#9a7a3a">$</tspan></text>
+    <g class="a d6"><rect x="686" y="284" width="9" height="16" fill="#1f2328" class="cursor"/></g>
+  </g>
+</svg>
